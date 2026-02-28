@@ -1,0 +1,44 @@
+# .clang-format
+Language:     Cpp
+BasedOnStyle: Google
+
+# 基本レイアウト
+ColumnLimit:  100
+Standard:     Latest
+IndentWidth:  4
+TabWidth:     4
+UseTab:       Never
+
+# ポインタ・参照の整列
+PointerAlignment:       Left
+ReferenceAlignment:     Left
+
+# インクルード順の整列
+SortIncludes:  true
+IncludeBlocks: Regroup
+
+# 縦の整列
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: false
+AlignAfterOpenBracket: Align
+
+# 関数・引数
+BinPackArguments: false
+BinPackParameters: false
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# 短いコード
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# 名前空間の末尾にコメントを自動付与
+FixNamespaceComments: true
+
+# ケースラベルのインデント
+IndentCaseLabels: true
+
+# クラス
+AccessModifierOffset: -4
