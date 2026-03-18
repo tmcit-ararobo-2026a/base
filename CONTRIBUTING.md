@@ -22,7 +22,7 @@ GitHub Flowを採用します。
 
 ```
 main
-├── feat/<issue番号>-<簡潔な説明>   # 例: feature/12-add-motor-controller
+├── feat/<issue番号>-<簡潔な説明>   # 例: feat/12-add-motor-controller
 └── fix/<issue番号>-<簡潔な説明>       # 例: fix/34-pwm-overflow
 ```
 
