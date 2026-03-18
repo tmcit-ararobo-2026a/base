@@ -22,13 +22,13 @@ GitHub Flowを採用します。
 
 ```
 main
-├── feature/<issue番号>-<簡潔な説明>   # 例: feature/12-add-motor-controller
+├── feat/<issue番号>-<簡潔な説明>   # 例: feature/12-add-motor-controller
 └── fix/<issue番号>-<簡潔な説明>       # 例: fix/34-pwm-overflow
 ```
 
 **ルール**
 
-- `feature/` は新機能追加、`fix/` はバグ修正・不具合対応に使用します。
+- `feat/` は新機能追加、`fix/` はバグ修正・不具合対応に使用します。
 - ブランチ名はすべて小文字・ハイフン区切りとします。
 - 1ブランチ1Issue・1機能を原則とします。
 - マージ後のブランチは速やかに削除してください。
